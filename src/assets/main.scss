@@ -1,0 +1,334 @@
+$indigoDark: #000000;
+$indigoDarkO: #04083367;
+$devorbis: #0194f0;
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+}
+
+.theme--light.v-application {
+  background-color: black !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
+
+.color-primary {
+  color: $devorbis;
+}
+
+.main-wrapper {
+  min-height: 100vh;
+}
+
+.menu-item {
+  position: relative;
+
+  h4 {
+    transition: all 0.25s;
+    background-color: $indigoDarkO;
+  }
+  .menu-icon-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .menu-icon {
+    transition: all 0.5s;
+    opacity: 0;
+  }
+}
+
+.menu-item:hover {
+  h4 {
+    // color: $indigoDark !important;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transform: translateX(calc(100% + 20px));
+  }
+  .menu-icon {
+    opacity: 1;
+    transform: rotateZ(1080deg) scale(1.5);
+  }
+}
+
+.menu-item.active {
+  h4 {
+    opacity: 0;
+  }
+  .menu-icon {
+    opacity: 1;
+    transform: rotateZ(1080deg) scale(1.5);
+  }
+}
+
+// UTILITIES
+
+.indigo-dark {
+  background-color: $indigoDark;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.row-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.col-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.weight5 {
+  font-weight: 500;
+}
+
+.weight4 {
+  font-weight: 400;
+}
+
+.weight3 {
+  font-weight: 300;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.h-100 {
+  height: 100% !important;
+}
+
+.h-full {
+  height: 100vh !important;
+}
+
+.minH-100 {
+  min-height: 100% !important;
+}
+
+.minH-full {
+  min-height: 100vh !important;
+}
+
+.size-20 {
+  font-size: 20px;
+}
+
+.size-32 {
+  font-size: 32px;
+}
+
+.size-36 {
+  font-size: 36px;
+}
+
+.size-42 {
+  font-size: 42px;
+}
+
+.size-48 {
+  font-size: 48px;
+}
+
+// delete later
+.page-container {
+  -webkit-box-shadow: inset 0px -4px 14px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px -4px 14px -4px rgba(0,0,0,0.75);
+  box-shadow: inset 0px -4px 14px -4px rgba(0,0,0,0.75);
+  flex-grow: 1;
+  min-height: 100vh;
+  transition: all 0.25s;
+  transition-timing-function: ease-in;
+}
+.section-1, .contact-container {
+  background: #0575E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.section-2, .careers-container {
+  background: #000428;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.section-2 {
+  background: #007991;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #78ffd6, #007991);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #78ffd6, #007991); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.about-container {
+  background: #FFEFBA;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.home-container {
+  background: #C33764;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background: #03001e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #d132a7, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #d132a7, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  // background: linear-gradient(to bottom right, black 0%,black 50%,#000000 50%,#137abe 50%,#137abe 100%); /* W3C */
+}
+.services-container {
+  // background: #FC466B;  /* fallback for old browsers */
+  // background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+  // background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background: #D3CCE3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+@media screen and (max-width: 500px) {
+  // .services-container {
+  //   background: #3494E6;  /* fallback for old browsers */
+  //   background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
+  //   background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  // }
+}
+.my-section-5, .projects-container {
+  background: rgb(253, 217, 233);  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgb(253, 217, 233), rgb(255, 246, 234));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgb(253, 217, 233), rgb(255, 246, 234)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.cube-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+}
+
+.cube, .cube-x, .cube-y {
+  height: 10px;
+  width: 10px;
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+.cube-x:nth-child(even) .cube {
+  background-color: rgba(255, 255, 255, 0.281);
+  // border: 1px solid rgba(255, 255, 255, 0.315);
+}
+.cube-x:nth-child(odd) .cube {
+  border: 2px solid #0181d6de;
+  border-radius: 5px;
+}
+
+@for $cube from 1 through 15
+{
+  // $direction: if($cube % 2 == 0,'alternate','alternate');
+  .cube-x-#{$cube} {
+    animation-name: moveX#{$cube};
+    animation-duration: #{random(2) + 2}s;
+    animation-iteration-count: infinite;
+    animation-direction: #{if($cube % 2 == 0,'alternate','alternate-reverse')};
+    position: absolute;
+    
+    .cube-y {
+      animation-name: moveY#{$cube};
+      animation-duration: #{random(16) + 16}s;
+      animation-iteration-count: infinite;
+      animation-direction: #{if($cube % 2 == 0,'alternate','alternate-reverse')};
+      position: absolute;
+    }
+  }
+
+  @keyframes moveX#{$cube} {
+    from {
+      transform: translateX(random(160) + px)
+    }
+    to {
+      transform: translateX(random(160) + px)
+    }
+  }
+  
+  @keyframes moveY#{$cube} {
+    from {
+      transform: translateY(random(100) + vh)
+    }
+    to {
+      transform: translateY(random(100) + vh)
+    }
+  }
+}
+
+// OVERRIDES
+
+.v-navigation-drawer__content, .v-navigation-drawer {
+  // height: 100% !important;
+  overflow: unset !important;
+}
+
+
+/* Ripple Out */
+@-webkit-keyframes hvr-ripple-out {
+  100% {
+    top: -12px;
+    right: -12px;
+    bottom: -12px;
+    left: -12px;
+    opacity: 0;
+  }
+}
+@keyframes hvr-ripple-out {
+  100% {
+    top: -12px;
+    right: -12px;
+    bottom: -12px;
+    left: -12px;
+    opacity: 0;
+  }
+}
+.hvr-ripple-out {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+}
+.hvr-ripple-out:before {
+  content: '';
+  position: absolute;
+  border: #e1e1e1 solid 2px;
+  border-radius: 5px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+.hvr-ripple-out:hover:before, .hvr-ripple-out:focus:before, .hvr-ripple-out:active:before {
+  -webkit-animation-name: hvr-ripple-out;
+  animation-name: hvr-ripple-out;
+}

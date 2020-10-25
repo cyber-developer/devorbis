@@ -1,0 +1,50 @@
+[
+  {
+    "id": "2",
+    "title": "Sourcr",
+    "base": "sourcr",
+    "type": "Web App",
+    "images": ["1 (1).png","1 (2).png","1 (3).png","1 (4).png","1 (5).png","1 (6).png"],
+    "technologies": ["React with Graphql", "Relay", "Elastic search", "Symphone"],
+    "description": "Sourcr is a reputation management platform, built by recruiters for recruiters, to help you stand out in a crowded market.<br/><ul><li>Stand out to candidates with a branded profile reflecting your brand and reputation</li><li>Collect reviews on autopilot with ATS/CRM integrations</li><li>Display reviews on Google to boost SEO and rankings</li><li>Increase website conversion with a library of widgets</li></ul>"
+  },
+  {
+    "id": "4",
+    "title": "benji provider",
+    "base": "benji",
+    "type": "Mobile App",
+    "layout": "mobile",
+    "images": ["1 (1).png","1 (2).png","1 (3).png","1 (4).png","1 (5).png"],
+    "technologies": ["flutter", "android", "ios"],
+    "description": "benji™ is a mobile platform that connects homeowners with lawn technicians to facilitate lawn mowing and other tasks. benji™ lawn technicians use ALL ELECTRIC equipment in order to reduce CO2 output and safe energy. benji™ facilitates \"in-app\" chat as well as payment processing via Stripe payment gateway."
+  },
+  {
+    "id": "5",
+    "title": "Evercare",
+    "base": "evercare",
+    "type": "Web App",
+    "images": ["1.png", "scr2.png", "3.png", "4.png"],
+    "technologies": ["vue", "node", "sql", "express", "aws services"],
+    "description": "This web application provides a platform to patients or guardians with an ability to search and appoint caregivers. Caregivers can signup and build their profile. Their data is verified by Admins. Clients can signup, searhc and schedule appointments. Some core features are listed below<br/><ul><li>Three user types: Clients, Caregivers, Admins</li><li>Onboarding of Caregivers</li><li>Profile Ratings and Reviews</li><li>Verification of Certificates by Admins</li><li>Company Card creation</li><li>Schedulings and Appointments management</li></ul>"
+  },
+  {
+    "id": "1",
+    "title": "Spookhost",
+    "base": "spookhost",
+    "type": "Mobile App",
+    "layout": "mobile",
+    "images": ["1.png","1 (2).png","1 (3).png","1 (4).png","1 (5).png","1 (6).png", "1 (7).png"],
+    "technologies": ["react native", "mapbox", "nativebase.io"],
+    "description": "Spookhost is a social entertainment application. Users can post stories, do live chat with other followed users. They can also view live streaming of American Movies currently active in Cinemas. <br/>Spookhost provides a Map feature in which users can find exact location, details and feedback of movies."
+  },
+  {
+    "id": "3",
+    "title": "Barter Loot",
+    "base": "barter",
+    "type": "Mobile App",
+    "layout": "mobile",
+    "images": ["1.png","2.png","3.png","4.png"],
+    "technologies": ["android", "ios", "java"],
+    "description": "Whether it is a simple size swap or trading with cash to get your grails, we verify the sneakers you’re receiving are 100% authentic. We require photos and descriptions of every item and make sure the sneakers match the description given so you know what you’re getting ."
+  }
+]
