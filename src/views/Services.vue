@@ -1,7 +1,7 @@
 <template>
   <div class="page-container services-container pa-sm-10">
     <!-- <div class="overlay" style="z-index:1"></div> -->
-    <v-container class="minH-100 row-flex align-center justify-center relative" style="z-index:90">
+    <v-container class="minH-100 row-flex justify-center relative" style="z-index:90">
       <div class="grey--text text--darken-2 mt-5 mt-sm-0" data-aos="zoom-in">
         <h1
           class=" text-center"

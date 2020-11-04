@@ -1,7 +1,7 @@
 <template>
   <div class="page-container about-container py-5 pa-sm-10">
     <div class="overlay"></div>
-    <v-container class="h-100 col-flex justify-center content">
+    <v-container class="h-100 col-flex content">
       <!-- ABOUT -->
       <div class="row-flex mb-10 align-center" data-aos="fade-down" data-aos-duration="500">
         <div class="brown--text text--darken-1">
@@ -71,11 +71,15 @@ export default {
   width: 100%;
   top: 0;
   left: 0;
-  background-image: url('~@/assets/images/bg2.jpg');
+  // background-image: url('~@/assets/images/bg2.jpg');
   background-size: cover;
   opacity: 0.3;
   pointer-events: none;
   z-index: 1;
+}
+.container {
+  max-width: 1500px;
+  margin: 0 auto !important;
 }
 .leader-card {
   border-top: 5px solid #947269;

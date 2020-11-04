@@ -5,7 +5,7 @@
     "base": "sourcr",
     "type": "Web App",
     "images": ["1 (1).png","1 (2).png","1 (3).png","1 (4).png","1 (5).png","1 (6).png"],
-    "technologies": ["React with Graphql", "Relay", "Elastic search", "Symphone"],
+    "technologies": ["React with Graphql", "Relay", "Elastic search", "Symfony"],
     "description": "Sourcr is a reputation management platform, built by recruiters for recruiters, to help you stand out in a crowded market.<br/><ul><li>Stand out to candidates with a branded profile reflecting your brand and reputation</li><li>Collect reviews on autopilot with ATS/CRM integrations</li><li>Display reviews on Google to boost SEO and rankings</li><li>Increase website conversion with a library of widgets</li></ul>"
   },
   {

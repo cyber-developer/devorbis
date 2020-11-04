@@ -1,5 +1,5 @@
 <template>
-  <div class="page-container home-container px-sm-10">
+  <div class="page-container home-container px-sm-10 pa-sm-10">
     <div class="overlay"></div>
     <v-container class="minH-full row-flex align-center" style="z-index: 5; position: relative">
       <v-layout :wrap="$vuetify.breakpoint.smAndDown">
@@ -59,6 +59,10 @@ export default {
   background-size: cover;
   opacity: 0.3;
   pointer-events: none;
+}
+.container {
+  max-width: 1500px;
+  margin: 0 auto !important;
 }
 .dname {
   font-size: 48px;
