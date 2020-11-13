@@ -17,6 +17,21 @@
             and from efficient coding to robust testing, we perform all operations to provide you best quality. 
             We work hard to deliver a product which will boost your idea or business to maximum.
           </p>
+          <div style="position: absolute; max-height: 0px; opacity: 0">
+            <h1
+              class="mt-5 mt-sm-0 dname"
+              data-aos="fade-down"
+              aos-duration="300"
+              data-aos-delay="1"
+            >Welcome to <br/>Dev<span class="color-primary">o</span>rbis</h1>
+            <h2 class="mb-2" data-aos="fade-down" data-aos-duration="300" data-aos-delay="300">We keep it simple for you</h2>
+            <p class="mb-7 text-justify" data-aos="fade-down" aos-duration="300" data-aos-delay="600">
+              We cover digital solutions for all screen sizes. Web apps, mobile apps, kiosk and desktop apps. 
+              From effective designing to intelligent architecture
+              and from efficient coding to robust testing, we perform all operations to provide you best quality. 
+              We work hard to deliver a product which will boost your idea or business to maximum.
+            </p>
+          </div>
           <div class="mt-3 row-flex" data-aos="slide-left" data-aos-duration="500">
             <span class="hvr-ripple-out mb-0">
               <v-btn @click="$router.push('/services')" :small="$vuetify.breakpoint.xs">
