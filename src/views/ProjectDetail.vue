@@ -1,5 +1,5 @@
 <template>
-  <div class="page-container project-detail-container pa-0">
+  <div class="page-container project-detail-container pa-0 grey lighten-5">
     <div class="minH-full col-flex" v-if="project">
       <!-- CAROUSEL -->
       <v-carousel v-model="model" class="grey darken-4" :height="$vuetify.breakpoint.xs && project.layout !== 'mobile' ? '300' : '450'">
@@ -64,6 +64,9 @@ export default {
 </script>
 
 <style>
+.project-detail-container {
+  box-shadow: unset;
+}
 .project-detail-container .v-image__image {
   background-size: contain !important;
   z-index: 3;
