@@ -20,7 +20,7 @@
       </div>
       <!-- LEADERS -->
       <div data-aos="fade-up" data-aos-duration="500">
-        <h2 class="brown--text text--darken-4 mb-4 mb-sm-4">Our Leaders</h2>
+        <h2 class="brown--text text--darken-4 mb-4 mb-sm-4">Our Team</h2>
         <v-layout wrap :class="$vuetify.breakpoint.xs && 'justify-center'">
           <v-card
             class="mr-5 mb-4 leader-card"
@@ -50,8 +50,10 @@ export default {
   name: "about-us",
   data: () => ({
     team: [
-      {name: 'Salman Sabir', position: 'CEO, Co-Founder', image: require('@/assets/images/leader1.jpg')},
+      {name: 'Salman Sabir', position: 'CEO, Co-Founder', image: require('@/assets/images/leader1.png')},
       {name: 'Muhammad Amir', position: 'CTO, Co-Founder', image: require('@/assets/images/leader2.png')},
+      {name: 'Hamza Aman', position: 'Software Engineer', image: require('@/assets/images/member3.jpg')},
+      {name: 'Danial Ahmad', position: 'Software Engineer', image: require('@/assets/images/member4.jpg')},
     ]
   })
 }
