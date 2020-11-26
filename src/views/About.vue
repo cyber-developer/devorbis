@@ -52,8 +52,10 @@ export default {
     team: [
       {name: 'Salman Sabir', position: 'CEO, Co-Founder', image: require('@/assets/images/leader1.png')},
       {name: 'Muhammad Amir', position: 'CTO, Co-Founder', image: require('@/assets/images/leader2.png')},
+      {name: 'Daniyal Awan', position: 'Sr Software Engineer', image: require('@/assets/images/member6.png')},
       {name: 'Hamza Aman', position: 'Software Engineer', image: require('@/assets/images/member3.jpg')},
       {name: 'Danial Ahmad', position: 'Software Engineer', image: require('@/assets/images/member4.jpg')},
+      {name: 'Zain Abbas', position: 'Business Development Manager', image: require('@/assets/images/member5.jpg')},
     ]
   })
 }
