@@ -64,6 +64,9 @@ import api from '@/services/restService';
 
 export default {
   name: 'contact-us',
+  metaInfo: {
+    title: 'Contact Us | Devorbis'
+  },
   data: () => ({
     valid: null,
     form: {},

@@ -59,6 +59,9 @@
 <script>
 export default {
   name: 'services',
+  metaInfo: {
+    title: 'Services | Devorbis'
+  },
   data: () => ({
     services: [
       {name: 'Web Apps', icon: require('@/assets/images/monitor.png'), description: 

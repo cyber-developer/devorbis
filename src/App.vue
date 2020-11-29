@@ -41,6 +41,10 @@ import '@/assets/main.scss';
 export default {
   name: 'App',
 
+  metaInfo: {
+    title: 'Devorbis | Software Development Agency'
+  },
+
   components: {
     NavDrawer,
   },

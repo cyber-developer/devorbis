@@ -48,6 +48,9 @@
 <script>
 export default {
   name: "about-us",
+  metaInfo: {
+    title: 'About Us | Devorbis'
+  },
   data: () => ({
     team: [
       {name: 'Salman Sabir', position: 'CEO, Co-Founder', image: require('@/assets/images/leader1.png')},

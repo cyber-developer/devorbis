@@ -16,7 +16,10 @@
 
 <script>
 export default {
-  name: 'careers'
+  name: 'careers',
+  metaInfo: {
+    title: 'Careers | Devorbis'
+  }
 }
 </script>
 

@@ -54,6 +54,9 @@ import projects from '@/data/projects';
 
 export default {
   name: 'projects',
+  metaInfo: {
+    title: 'Projects | Devorbis'
+  },
   data: () => ({
     projects
   })
