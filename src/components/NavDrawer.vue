@@ -9,7 +9,12 @@
     <v-flex class="indigo-dark h-100 relative">
       <!-- CONTENT -->
       <div class="col-flex pa-5 pt-10 align-center">
-        <img width="120" src="@/assets/images/logo_text.png" />
+        <img 
+          class="pointer"
+          width="120" 
+          src="@/assets/images/logo_text.png"
+          @click="$router.push('/')"
+        />
         <v-layout class="menubar mt-8" column>
           <div 
             class="menu-item text-center my-5 pointer"
