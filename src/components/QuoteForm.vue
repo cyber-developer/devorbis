@@ -83,6 +83,8 @@ export default {
   }),
   methods: {
     submit() {
+      gtag('event', 'quote_requested', {...this.form});
+      
       if(this.$refs.form.validate()) {
         this.loading = true;
         api.post('/quote', this.form)

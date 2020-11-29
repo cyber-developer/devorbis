@@ -71,6 +71,8 @@ export default {
   }),
    methods: {
     submit() {
+      gtag('event', 'contact_us', {...this.form});
+
       if(this.$refs.form.validate()) {
         this.loading = true;
         api.post('/contact', this.form)
