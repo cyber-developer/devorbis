@@ -9,7 +9,7 @@
         style="border: 1px solid white; flex-grow: 1; transition: all 0.25s;"
       >
         <h2 class="text-center">
-          There are curerntly no vacancies, however we always welcome new talent!<br/>
+          There are currently no vacancies, however we always welcome new talent!<br/>
           <h6 class="font-weight-regular">Drop your CV/resume at careers@devorbis.com</h6>
         </h2>
       </div>
