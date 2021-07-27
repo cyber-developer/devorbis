@@ -6,6 +6,13 @@ let app = express();
 
 const staticFileMiddleware = express.static(path.join(__dirname + '/dist/'));
 
+app.use((req, res, next) => {
+  if (req.header('x-forwarded-proto') !== 'https') {
+    res.redirect(`https://${req.header('host')}${req.url}`)
+  } else {
+    next()
+  }
+})
 app.use(staticFileMiddleware);
 app.use(history({
   disableDotRule: true,
